@@ -1,0 +1,16 @@
+{
+    "app_name": "Cluster Map Status",
+    "latest_version": "4.4.6.3",
+    "download_url": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/download/v4.4.6.3/Cluster_Map_Status_V4_4_6_3_EXE_Package.zip",
+    "release_page": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/latest",
+    "release_notes": [
+        "Hotfix for dashboard startup crash.",
+        "Fixed dashboard crash caused by non-profile text values in settings.",
+        "Dashboard now ignores bad entries and only reads valid profile dictionaries.",
+        "Server list and cached status loops are safer.",
+        "Keeps V4.4.6.2, V4.4.6.1, and V4.4.6 fixes."
+    ],
+    "required_update": false,
+    "sha256": "9a912589ca5284bce935b60bcbf678698b0770b4f33a9103c3ec36abfb869e81",
+    "published": "2026-06-24"
+}
