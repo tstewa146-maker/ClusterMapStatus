@@ -1,0 +1,17 @@
+{
+    "app_name": "Cluster Map Status",
+    "latest_version": "4.4.6.4",
+    "download_url": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/download/v4.4.6.4/Cluster_Map_Status_V4_4_6_4_EXE_Package.zip",
+    "release_page": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/latest",
+    "release_notes": [
+        "Persistent settings patch.",
+        "Settings now save to Documents / Cluster Map Status Data / settings.json.",
+        "Old settings.json beside the EXE is copied into the permanent data folder the first time this version runs.",
+        "New EXE updates can keep existing profiles/settings automatically.",
+        "Users should no longer need to import settings after every update.",
+        "Keeps previous dashboard and data folder fixes."
+    ],
+    "required_update": false,
+    "sha256": "6c0819655976b15015257e28f93b7717d67ae17cb7c7a03cd2fdacd34feef18f",
+    "published": "2026-06-24"
+}
