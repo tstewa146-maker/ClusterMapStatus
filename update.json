@@ -1,13 +1,16 @@
 {
     "app_name": "Cluster Map Status",
-    "latest_version": "4.3.5",
-    "download_url": "https://github.com/StewartsITConsulting/ClusterMapStatus/releases/download/v4.3.5/Cluster_Map_Status_V4_3_5_EXE_Package.zip",
-    "release_page": "https://github.com/StewartsITConsulting/ClusterMapStatus/releases/latest",
+    "latest_version": "4.4.0",
+    "download_url": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/download/v4.4.0/Cluster_Map_Status_V4_4_0_EXE_Package.zip",
+    "release_page": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/latest",
     "release_notes": [
-        "Fixed About page showing literal \\n text.",
-        "Added FiveM / Cfx.re details to About page.",
-        "Added V4.2 update section for FiveM source types.",
-        "Added V4.3 update section for emoji dropdowns, custom emoji helper, right-click copy/paste, and pinned save button."
+        "Added Updates page.",
+        "Added Check for Updates button.",
+        "Added GitHub update.json support.",
+        "Added version comparison.",
+        "Added release notes display.",
+        "Added download/release link opening.",
+        "About page now links to the Updates page."
     ],
     "required_update": false,
     "sha256": "",
