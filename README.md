@@ -22,6 +22,7 @@ Cluster Map Status by Stewart's IT Consulting is a multi-game server status tool
 - Includes Help / Feedback and Donate pages.
 - Includes an Updates page for checking GitHub releases.
 - Includes a Data / History Folder setting to preserve logs after updates.
+- Saves settings in a permanent folder so users do not need to import settings after each update.
 
 ## Download
 
@@ -37,33 +38,35 @@ https://raw.githubusercontent.com/tstewa146-maker/ClusterMapStatus/main/update.j
 
 ## Latest Version
 
-Current release target: V4.4.6.3
+Current release target: V4.4.6.4
 
-## V4.4.6.3 Hotfix
+## V4.4.6.4 Persistent Settings Patch
 
 Fixed:
 
-- Dashboard crash caused by non-profile text values in settings.
-- Dashboard now ignores bad/non-profile entries.
-- Dashboard only loads real profile dictionaries.
-- Server list and cached status loops are safer.
+- Settings now save to `Documents/Cluster Map Status Data/settings.json`.
+- Old `settings.json` beside the EXE is copied into the permanent data folder the first time this version runs.
+- New EXE updates can load the same profiles, webhooks, server lists, logs, message IDs, and update settings automatically.
+- Users should no longer need to import settings after every update.
 
 Includes:
 
-- V4.4.6 Data / History Folder update.
-- V4.4.6.1 dashboard border color fix.
+- V4.4.6.3 dashboard bad profile fix.
 - V4.4.6.2 dashboard profile startup fix.
+- V4.4.6.1 dashboard border color fix.
+- V4.4.6 Data / History Folder update.
+- Dashboard page.
+- Project Progress Summary page.
+- GitHub update checker.
 
 ## Recent Major Features
 
 ### V4.0
-
 - Multi-webhook profiles.
 - Each profile has its own webhook settings and server list.
 - Separate CSV logs and message ID files per profile.
 
 ### V4.1
-
 - Profile templates.
 - Fetch Info from BattleMetrics.
 - Test Selected Server.
@@ -74,24 +77,17 @@ Includes:
 - Live Preview page.
 
 ### V4.2
-
 - FiveM / Cfx.re support.
-- Source types:
-  - BattleMetrics
-  - FiveM Cfx.re
-  - FiveM Direct
 - FiveM Cfx.re accepts a join code or cfx.re/join URL.
 - FiveM Direct accepts host/IP:port.
 
 ### V4.3
-
 - Custom emoji/icon dropdowns.
 - Custom Discord emoji helper.
 - Right-click copy/paste.
 - Pinned Save Profile Settings button.
 
 ### V4.4
-
 - Updates page.
 - Check for Updates button.
 - GitHub update.json support.
@@ -100,7 +96,6 @@ Includes:
 - Download/release link opening.
 
 ### V4.4.5
-
 - Dashboard page.
 - Stat cards.
 - Compact live preview.
@@ -108,7 +103,6 @@ Includes:
 - Project Progress Summary page.
 
 ### V4.4.6
-
 - Data / History Folder setting.
 - Default folder: `Documents/Cluster Map Status Data`.
 - Logs and Discord message ID files can stay outside the EXE folder.
@@ -119,8 +113,7 @@ Includes:
 1. Download the latest EXE package ZIP from Releases.
 2. Extract the ZIP.
 3. Double-click `Cluster Map Status.exe`.
-4. Keep `settings.json`, `logs`, and `message_ids` with the EXE.
-5. Use the Data / History Folder setting if you want logs stored outside the EXE folder.
+4. The app saves settings/history in `Documents/Cluster Map Status Data`.
 
 ## Notes
 
