@@ -1,0 +1,15 @@
+{
+    "app_name": "Cluster Map Status",
+    "latest_version": "4.4.7",
+    "download_url": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/download/v4.4.7/Cluster_Map_Status_V4_4_7_EXE_Package.zip",
+    "release_page": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/latest",
+    "release_notes": [
+        "Version numbering standardized back to 3-part versions.",
+        "Future versions should use 4.4.7, 4.4.8, 4.4.7, etc.",
+        "Updater compares major.minor.patch only.",
+        "Keeps Dashboard page, Progress Summary page, and GitHub update checker features."
+    ],
+    "required_update": false,
+    "sha256": "",
+    "published": "2026-06-24"
+}
