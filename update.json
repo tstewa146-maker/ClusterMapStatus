@@ -1,0 +1,15 @@
+{
+    "app_name": "Cluster Map Status",
+    "latest_version": "4.4.17",
+    "download_url": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/download/v4.4.17/Cluster_Map_Status_V4_4_17_EXE_Package.zip",
+    "release_page": "https://github.com/tstewa146-maker/ClusterMapStatus/releases/latest",
+    "release_notes": [
+        "Added Project Evolution statement to About > Progress Summary.",
+        "Added timeline image support for the where-it-started to where-it-is-now visual.",
+        "Progress Summary now explains where the app started and where it is now.",
+        "Keeps persistent data folder, shortcut repair, Dashboard, and update checker fixes."
+    ],
+    "required_update": false,
+    "sha256": "",
+    "published": "2026-06-24"
+}
