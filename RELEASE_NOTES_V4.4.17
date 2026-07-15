@@ -1,0 +1,36 @@
+# Cluster Map Status V4.4.17
+
+## Release Title
+
+Cluster Map Status V4.4.17
+
+## Tag
+
+v4.4.17
+
+## Release Asset
+
+Upload this ZIP to the release:
+
+```text
+Cluster_Map_Status_V4_4_17_EXE_Package.zip
+```
+
+## What Changed
+
+- Added Project Evolution statement to About > Progress Summary.
+- Added timeline image support for the where-it-started to where-it-is-now visual.
+- Progress Summary now explains:
+  - Where the app started
+  - Where the app is now
+  - Version timeline
+  - Current project status
+
+## Also Included
+
+- Persistent data folder:
+  - `Documents\Cluster Map Status Data`
+- Desktop shortcut path fix.
+- Dashboard restore.
+- Update checker numeric version fix.
+- GitHub update checker support.
